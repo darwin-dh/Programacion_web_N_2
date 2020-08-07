@@ -1,0 +1,78 @@
+h1 {
+  color:red;
+  font-size:45px;
+  background: #100405;
+  width: 300px;
+  height: 15%;
+  max-width: 1000px;
+  max-height: 600px;
+  border-radius:10px;
+  align-items: center;
+  margin-left:50px;
+  margin-top: 50px;
+  margin-bottom: 150px;
+  margin-right: 150px;
+  margin: auto;
+}
+/*PARA LLAMAR A LAS CLASES PODEMOS HACERLO CON EL .
+PARA LLAMAR ID CON #
+*/
+.darwin{
+  color:#FFBA08;
+  font-size: 16px;
+  font-family: Comic Sans MS;
+}
+.rojo{
+  color:#ff0000;
+}
+.celeste{
+  color:#037ef3;
+}
+.verder{
+  color:#7fbb00;
+}
+.tamaño16{
+  font-size: 16px;
+}
+.tamaño50{
+  font-size: 50px;
+}
+.titulo{
+ color:#000;
+ background:#0389ff;
+ font-size: 25px;
+}
+#unico{
+background-color:#000;
+color: #fff;
+}
+.caja{
+  width: 200px;
+  height: 100px;
+  background:#0389ff ;
+  border-radius: 10px;
+}
+.caja h2 {
+  color: #fff;
+  font-size: 25px;
+  padding: 10px 40px ;
+}
+.caja p {
+  color:#ff0000;
+  padding: 0 40px;
+}
+.caja1{
+  background:#3b5998 ;
+  width: 300px;
+  height: 150px;
+}
+.caja1 .caja2{
+  background: #000;
+  width: 150px;
+  height: 75px;
+  margin-left: 50px;
+}
+.caja1 .caja2 h2{
+  color:#fff;
+  padding: 20px 40px;
+}
