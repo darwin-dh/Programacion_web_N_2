@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body {
-    background: #ccc;
+    background: rgba(0,40,74,0.5);
     font-size: 16px;
 }
 .container {
@@ -33,7 +33,7 @@ header .logo img {
     border: 2px solid;
 }
 header .menu a {
-    color: #000;
+    color: #fff;
     font-size: 18px;
     text-decoration: none;
     margin-right: 40px;
@@ -41,22 +41,117 @@ header .menu a {
     border-bottom: 1px solid transparent;
 }
 header .menu i {
-    color: #000;
+    color: #ff;
     margin-right: 10px;
     font-size: 20px;
-
 }
 
 header .menu a:hover {
     border-bottom: 2px solid;
 }
+.main {
+    width: 50%;
+    background: #0096c7;
+    padding: 20px;
+}
+.main .principal .imagen {
+    margin-bottom: 20px;
+}
+.main .principal .imagen img {
+    width: 100%;
+    vertical-align: top;
 
-header {
-    .menu {
-        background: #fff;
-        a {
-            text-decoration: none;
-        }
+}
+.main .principal article {
+    background-color: rgba(0, 24, 94, 0.9);
+    color: #fff;
+    padding: 10px;
+}
+.main .principal article h2 {
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.main .principal article p::first-letter {
+    font-size: 14px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+.main .principal article p::first-line {
+    font-weight: bold;
+    color: yellow;
+}
+
+aside {
+    width: 50%;
+    background: #00b4d8;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+aside .publicidad {
+    background: #90e0ef;
+    padding: 10px;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 20px;
+}
+footer {
+    background: #0077b6;
+    padding: 20px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+/****media query al terminar los estilos y order mayor al menor***/
+@media screen and (max-width:800px) {
+    /**todos los estilos**/
+    .main {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+
+    }
+    /**fin estilos**/
+}
+/**fin media query 1***/
+@media screen and (max-width:600px) {
+    /**todos los estilos**/
+    header {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    header .menu {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        background: rgba(255,255,255,0.5);
+    }
+    header .logo {
+        margin-bottom: 20px;
+    }
+    header .menu a {
+        margin: 0 20px;
+    }
+    header .menu a:hover {
+        text-decoration: underline;
+        border-bottom: 1px solid transparent;
+    }
+    /**fin estilos**/
+}
+@media screen and (max-width:300px) {
+  header{
+    flex-direction: column;
+  }
+    header .logo {
+        background: rgba(255,255,255,0.5);
+        width: 100%;
+        text-align: center;
+
     }
 }
 
