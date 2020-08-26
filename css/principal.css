@@ -126,6 +126,11 @@ header .titulo .texto .profesion {
 .main .mapa {
     margin: 20px;
 }
+.redes-sociles{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 footer .contactos {
     padding: 60px 0;
 }
