@@ -23,7 +23,7 @@ header {
     justify-content: space-between;
 }
 section {
-    width: 70%;
+    width: 100%;
     background: #40916c;
     padding: 60px ;
 }
@@ -56,7 +56,7 @@ section .texto p{
   color: #000;
 }
 aside {
-    width: 30%;
+    width: 100%;
     background: #2d6a4f;
     padding: 60px 0;
 }
